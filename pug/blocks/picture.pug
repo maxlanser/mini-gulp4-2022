@@ -1,0 +1,5 @@
+mixin image(className,path,desc)
+  picture
+    source(srcset=path+'.webp' type="image/webp")
+    source(srcset=path+'.jpg' type="image/jpeg")
+    img(class=className src=path+'.jpg' alt=desc)

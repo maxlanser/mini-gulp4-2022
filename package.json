@@ -1,0 +1,32 @@
+{
+  "name": "gulp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.27.10",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-ext-replace": "^0.3.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-pug": "^5.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "imagemin-webp": "^7.0.0",
+    "normalize.css": "^8.0.1",
+    "sass": "^1.54.5"
+  },
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "owl.carousel": "^2.3.4"
+  }
+}
